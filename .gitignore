@@ -1,0 +1,33 @@
+# Secrets - never commit your API key
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# App runtime data (uploads, extracted slide images, lecture database)
+lecture_summarizer/static/uploads/
+lecture_summarizer/data/
+.app.pid
+
+# transcribe.bat / transcribe.sh inputs and outputs
+transcribed_lectures/
+/*.txt
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+*.m4a
+*.mp3
+*.wav
+*.pdf
+
+# Local editor / tool settings
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+flask
+faster-whisper
+google-generativeai
+pdfplumber
+Pillow
+python-dotenv
+numpy
